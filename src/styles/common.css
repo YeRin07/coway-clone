@@ -6,9 +6,19 @@ header .inner_1400 {position: relative;height: 81px;}
 header .inner_1400 h1 {float: left;margin-top: 30px;}
 header .inner_1400 nav {float: left;margin-left:40px;}
 header .inner_1400 nav li {float: left;margin: 0 20px;line-height: 81px;}
+header .inner_1400 nav li:hover {border-bottom: 1px solid #00A8E3;}
 header .inner_1400 nav li a {color:black;font-family : 'NotoSans';font-size: 16px;font-weight: 700;}
+header .inner_1400 nav li a:hover {color: #00A8E3;}
 header .inner_1400 aside {float: right;display: flex;justify-content: space-between;align-items: center; width: 412px;margin: 20px 10px 0 0;}
 header .inner_1400 aside div {width: 320px;height: 42px; background-color: #f2f4f5; border-radius: 21px; background-image: url(/src/images/search.png);background-repeat: no-repeat;background-position: 94%;}
-header .inner_1400 aside div p {font-family : 'NotoSans';line-height: 42px;padding-left: 22px;font-size: 14px;color: #90a0a6; font-weight: 400;}
+header .inner_1400 aside div a {display: block; font-family : 'NotoSans';line-height: 42px;padding-left: 22px;font-size: 14px;color: #90a0a6; font-weight: 400;}
 header .inner_1400 aside img {max-width: 100%; float: right;width: 26px;height: 27px;}
 
+
+/* Footer */
+
+
+
+/* Btn */
+.callBtn {display: block;position: fixed;bottom: 110px; right: 18px; width: 56px;height: 56px;background-image: url(/src/images/call.png);background-repeat: no-repeat;background-size: cover;}
+.topBtn {display: block;position: fixed;bottom: 40px; right: 18px; width: 56px;height: 56px;background-image: url(/src/images/pageTop.png);background-repeat: no-repeat;background-size: cover;}
