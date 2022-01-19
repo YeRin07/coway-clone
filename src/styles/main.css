@@ -146,7 +146,7 @@ main .benefits ul li .btn img {padding: 0 0 3px 8px;vertical-align: middle;}
 
 
 /* Q&A */
-main .QA {max-width: 1200px; width: 100%; margin: 120px auto 0;}
+main .QA {max-width: 1200px; width: 100%; margin: 120px auto;}
 main .QA .top {display: flex;justify-content: space-between;}
 main .QA .top .text {font-family : 'NotoSans';font-weight: bold;}
 main .QA .top .text p {font-size: 38px;margin-bottom: 12px;}
