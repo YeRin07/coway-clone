@@ -10,7 +10,7 @@ header .inner_1400 nav li:hover {border-bottom: 1px solid #00A8E3;}
 header .inner_1400 nav li a {color:black;font-family : 'NotoSans';font-size: 16px;font-weight: 700;}
 header .inner_1400 nav li a:hover {color: #00A8E3;}
 header .inner_1400 aside {float: right;display: flex;justify-content: space-between;align-items: center; width: 412px;margin: 20px 10px 0 0;}
-header .inner_1400 aside div {width: 320px;height: 42px; background-color: #f2f4f5; border-radius: 21px; background-image: url(/src/images/search.png);background-repeat: no-repeat;background-position: 94%;}
+header .inner_1400 aside div {width: 320px;height: 42px; background-color: #f2f4f5; border-radius: 21px; background-image: url(../images/search.png);background-repeat: no-repeat;background-position: 94%;}
 header .inner_1400 aside div a {display: block; font-family : 'NotoSans';line-height: 42px;padding-left: 22px;font-size: 14px;color: #90a0a6; font-weight: 400;}
 header .inner_1400 aside img {max-width: 100%; float: right;width: 26px;height: 27px;}
 header .inner_1400 aside a+a {position: relative;}
@@ -24,14 +24,14 @@ footer .footer_nav .inner_1400 ul {display: flex;font-family : 'NotoSans';font-s
 footer .footer_nav .inner_1400 ul li {margin-right: 4px;}
 footer .footer_nav .inner_1400 ul li a {color: #90a0a6;}
 footer .footer_nav .inner_1400 ul li .bold {font-weight: 700;}
-footer .footer_nav .inner_1400 select {width: 160px;height: 30px;font-family : 'NotoSans';color: #90a0a6;background-color: #f2f4f5;padding: 0 12px 2px;border-radius: 4px; -webkit-appearance:none;-moz-appearance:none;appearance:none;background-image: url(/src/images/select.png);background-repeat: no-repeat;background-size: 10px 6px;background-position: 92%;}
+footer .footer_nav .inner_1400 select {width: 160px;height: 30px;font-family : 'NotoSans';color: #90a0a6;background-color: #f2f4f5;padding: 0 12px 2px;border-radius: 4px; -webkit-appearance:none;-moz-appearance:none;appearance:none;background-image: url(../images/select.png);background-repeat: no-repeat;background-size: 10px 6px;background-position: 92%;}
 footer .footer_nav .inner_1400 select::-ms-expand {display: none;}
 footer .footer_in {max-width: 1400px;width: 100%;margin: 25px auto;display: flex; justify-content: space-between;font-family : 'NotoSans';}
 footer .footer_in .info p {font-size: 13px;color: #bec8cc;margin: 10px 0 25px;}
 footer .footer_in .info ul {color: #90a0a6; font-size: 12px; line-height: 24px;}
 footer .footer_in .info .img {display: flex;justify-content: left;align-items: center;}
 footer .footer_in .info .img img {margin-right: 19px;}
-footer .footer_in .info .img p {margin: 0;padding-right: 20px;font-size: 14px;color: #90a0a6;background-image: url(/src/images/footer_in10.png);background-repeat: no-repeat;background-size: 15px 15px;background-position: 100% 75%;}
+footer .footer_in .info .img p {margin: 0;padding-right: 20px;font-size: 14px;color: #90a0a6;background-image: url(../images/footer_in10.png);background-repeat: no-repeat;background-size: 15px 15px;background-position: 100% 75%;}
 footer .footer_in .info ul li {position: relative; float: left;padding-right: 14px;}
 footer .footer_in .info ul li a {border: 1px solid #e8ecee;padding: 0 5px;color: #90a0a6;}
 footer .footer_in .info ul li::after {content: '';position: absolute;right: 6px;top: 50%;transform: translateY(-50%);width: 2px; height: 13px;background: #e1e6e8;}
@@ -44,5 +44,5 @@ footer .footer_in .sns li:last-child img {margin: 0;}
 
 
 /* Btn */
-.callBtn a {display: block;position: fixed;bottom: 110px; right: 18px; width: 56px;height: 56px;background-image: url(/src/images/call.png);background-repeat: no-repeat;background-size: cover;}
-.topBtn a {display: block;position: fixed;bottom: 40px; right: 18px; width: 56px;height: 56px;background-image: url(/src/images/pageTop.png);background-repeat: no-repeat;background-size: cover;}
+.callBtn a {display: block;position: fixed;bottom: 110px; right: 18px; width: 56px;height: 56px;background-image: url(../images/call.png);background-repeat: no-repeat;background-size: cover;}
+.topBtn a {display: block;position: fixed;bottom: 40px; right: 18px; width: 56px;height: 56px;background-image: url(../images/pageTop.png);background-repeat: no-repeat;background-size: cover;}
