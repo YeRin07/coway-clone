@@ -13,6 +13,8 @@ header .inner_1400 aside {float: right;display: flex;justify-content: space-betw
 header .inner_1400 aside div {width: 320px;height: 42px; background-color: #f2f4f5; border-radius: 21px; background-image: url(/src/images/search.png);background-repeat: no-repeat;background-position: 94%;}
 header .inner_1400 aside div a {display: block; font-family : 'NotoSans';line-height: 42px;padding-left: 22px;font-size: 14px;color: #90a0a6; font-weight: 400;}
 header .inner_1400 aside img {max-width: 100%; float: right;width: 26px;height: 27px;}
+header .inner_1400 aside a+a {position: relative;}
+header .inner_1400 aside a span {position: absolute;width: 20px;height: 20px;font-family : 'NotoSans';font-size: 12px;font-weight: bold;color: #fff;border-radius: 20px;background: #00a8e3;text-align: center;right: -9px;top: -7px;padding-left: 1px;}
 
 
 /* Footer */
