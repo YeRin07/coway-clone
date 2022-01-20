@@ -16,14 +16,19 @@ main .info {margin: 24px auto;padding: 60px 0; max-width: 1880px;width: 100%;bac
 main .info p {color: white; font-family : 'NotoSans';font-size: 38px;font-weight: bold;text-align: center;}
 main .info ul {margin-top: 60px; display: flex;justify-content: center;}
 main .info ul li {width: 200px;}
-main .info ul li a {display: flex;flex-direction: column; justify-content: center; align-items: center;}
-main .info ul li a img {width: 54px;height: 54px;}
+main .info ul li:nth-child(1) {background: url(../images/info1.png) no-repeat;background-size: 54px 57px;background-position: center -4px;}
+main .info ul li:nth-child(2) {background: url(../images/info2.png) no-repeat;background-size: 54px 57px;background-position: center -4px;}
+main .info ul li:nth-child(3) {background: url(../images/info3.png) no-repeat;background-size: 54px 54px;background-position: center -1px;}
+main .info ul li:nth-child(4) {background: url(../images/info4.png) no-repeat;background-size: 54px 54px;background-position: center -4px;}
+main .info ul li:nth-child(5) {background: url(../images/info5.png) no-repeat;background-size: 54px 54px;background-position: center -4px;}
+main .info ul li:nth-child(6) {background: url(../images/info6.png) no-repeat;background-size: 54px 54px;background-position: center -4px;}
+main .info ul li a {height: 107px; display: flex;flex-direction: column;justify-content: end; align-items: center;}
 main .info ul li a p {font-size: 16px; font-weight: 700; margin: 14px 0 0;}
 main .info ul li a p+p {font-size: 14px;margin: 0;opacity: 0.4;}
 
 
 /* Info2 */
-main .info2 {max-width: 1880px; width: 100%;background-color: #f2f4f5;border-radius: 10px;padding-top: 55px;}
+main .info2 {max-width: 1880px; width: 100%;background-color: #f2f4f5;border-radius: 10px;padding-top: 55px;margin: auto;}
 main .info2 .info2_top {text-align: center;}
 main .info2 .info2_top div {font-family : 'NotoSans';font-size: 34px; font-weight: 700;}
 main .info2 .info2_top div .text {display: flex;justify-content: center;line-height: 56px; margin-bottom: 12px;}
@@ -78,23 +83,29 @@ main .category .list .name li:first-child+li+li a:hover {color: white;font-weigh
 main .category .list .name li:first-child+li+li+li a:hover {color: white;font-weight: 700;} 
 main .category .list .name li {margin: 0 6px;padding: 0 20px; height: 51px;background-color: #f2f4f5;border-radius: 24px;}
 main .category .list .name li a {line-height: 50px; color: #90a0a6;}
+main .category .list .img li {position: relative;font-family : 'NotoSans';}
 main .category .list .img li:first-child {width: 680px;height: 720px;padding: 46px 0 0 50px; position: relative;background-color: #f2f4f5;border-radius: 8px;font-family : 'NotoSans';margin-left: 0;}
-main .category .list .img li:first-child span {font-size: 16px; color: #00A8E3;}
-main .category .list .img li:first-child p {font-size: 34px;color: #00A8E3;}
-main .category .list .img li:first-child p+p {font-size: 27px;font-weight: 700;color: black;margin: 16px 0 60px;}
-main .category .list .img li:first-child dl {width: 170px;display: flex;justify-content: space-between;font-size: 14px;font-weight: 400;color: black; line-height: 24px;}
-main .category .list .img li:first-child .rental dd {color: #00A8E3;font-weight: 400;}
-main .category .list .img li:first-child img {width: 510px; height: 510px;position: absolute;right: 0;top: 220px;}
+main .category .list .img li:first-child .top_text {position: absolute;top: 46px; left: 50px;}
+main .category .list .img li:first-child .bottom_text {position: absolute;left: 50px; top: -100px;}
+main .category .list .img li:first-child .top_text span {font-size: 16px;color: #00A8E3;}
+main .category .list .img li:first-child .top_text p {font-size: 34px;color: #00A8E3;}
+main .category .list .img li:first-child img {width: 510px;height: 510px;position: absolute;top: 210px;left: 170px;}
+main .category .list .img li:first-child .bottom_text p {font-size: 27px; margin-bottom: 60px;}
 main .category .list .img li {float: left;position: relative;width: 340px;height: 350px;border-radius: 10px;background-color: #f2f4f5;margin: 0 0 20px 20px;}
 main .category .list .img li img {width: 216px;height: 216px;position: absolute;}
-main .category .list .top_text {position: absolute;top: 24px;left: 30px;font-family : 'NotoSans';color: #90a0a6;}
+main .category .list .top_text {position: absolute;top: 18px;left: 30px;font-family : 'NotoSans';color: #90a0a6;}
 main .category .list .top_text span {font-size: 12px;margin-bottom: 6px;}
 main .category .list .top_text p {font-size: 22px;font-weight: 400;}
-main .category .list .right_img {position: absolute;left: 55px;top: 12px;}
+main .category .list .right_img {position: absolute;left: 60px;top: 12px;}
 main .category .list .bottom_text {width: 280px;margin: auto;margin-top: 230px;color: #1b2529;font-size: 14px;}
 main .category .list .bottom_text p {font-family : 'NotoSans';font-size: 17px; font-weight: 700;margin-bottom: 30px;}
-main .category .list .bottom_text dl {display: flex;justify-content: space-between;font-family : 'NotoSans';font-size: 14px; font-weight: 400;margin-bottom: 4px;}
-main .category .list .bottom_text .rental dd {color: #00A8E3;}
+main .category .list .bottom_text dl {font-family : 'NotoSans';font-weight: 400;margin-bottom: 4px;}
+main .category .list .bottom_text dl dt {float: left;width: 90px; font-size: 14px;padding-bottom: 5px;}
+main .category .list .bottom_text dl dd {float: left;width: calc(100% - 90px); font-size: 14px;padding-bottom: 5px;padding-left: 110px;}
+main .category .list .bottom_text dl dd+dt+dd {color: #00A8E3;}
+main .category .list .img li:first-child .bottom_text dl {clear: both;font-family : 'NotoSans';}
+main .category .list .img li:first-child .bottom_text dl dt{float:left;width:90px;font-size: 14px;padding-bottom: 5px;}
+main .category .list .img li:first-child .bottom_text dl dd{float:left;width:calc(100% - 90px);font-size: 14px;padding-bottom: 5px;padding-left: 0;}
 
 
 /* Category2 */
@@ -130,7 +141,7 @@ main .review .list ul li a div ul li::before {display: none;}
 
 
 /* Benefits */
-main .benefits {max-width: 1880px; width: 100%;margin: 120px auto 0;background-color: #f2f4f5;border-radius: 10px;padding: 60px 0 74px;}
+main .benefits {max-width: 1880px; width: 100%;margin: 120px auto 0;background-color: #f2f4f5;border-radius: 10px;padding: 60px 0 52px;}
 main .benefits .text {width: 1200px;margin: auto; text-align: center;font-family : 'NotoSans';font-weight: bold;}
 main .benefits .text span {font-size: 15px;}
 main .benefits .text p {font-size: 38px;margin: 4px 0 14px;}
