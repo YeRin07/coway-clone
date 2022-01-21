@@ -1,4 +1,10 @@
+@import url("./fonts.css");
+@import url("./main.css");
+@import url("./reset.css");
+
+
 .inner_1400 {max-width: 1400px;width: 100%; margin: auto;}
+
 
 /* Header */
 header {position: relative; border-bottom: 1px solid #e8ecee;z-index: 100;}

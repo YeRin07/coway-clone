@@ -59,12 +59,16 @@ main .story .list {padding: 0 65px 0 150px;display: flex;justify-content: space-
 main .story .list img {border-radius: 10px;width: 870px;height: 560px;}
 main .story .list ul li {width: 285px; padding: 32px 0 4px 72px; text-align: left;position: relative;}
 main .story .list ul li::after {position: absolute;left: 12px; width: 285px; content:''; display: block; border-bottom: 1px solid #e8ecee;}
-main .story .list ul .line::after {position: absolute;left: -60px; width: 350px; content:''; display: block; border-bottom: 2px solid black;}
+main .story .list ul li:hover::after {position: absolute;left: -60px; width: 350px; content:''; display: block; border-bottom: 2px solid black;}
+main .story .list ul li:hover a p+p {background-image: url(../images/arr_btnTxt4.png);background-repeat: no-repeat;background-position: 82% 32%;}
+main .story .list ul li:nth-child(2) a p+p {background-position: 62% 32%;}
+main .story .list ul li:nth-child(3) a p+p {background-position: 62% 32%;}
 main .story .list ul li a {color: black;}
 main .story .list ul li a p {font-family : 'NotoSans';font-size: 16px; font-weight: 700;}
 main .story .list ul li span {color: #bec8cc;font-family : 'NotoSans';font-size: 18px;font-weight: 700;position: absolute;left: 36px;}
-main .story .list ul li .bg_none {background-image: none;}
-main .story .list ul li a p+p {padding-bottom: 14px; font-family : 'NotoSans';font-size: 24px; font-weight: 700;margin-top: 2px;background-image: url(../images/arr_btnTxt4.png);background-repeat: no-repeat;background-position: 82% 32%;}
+main .story .list ul li a p+p {padding-bottom: 14px; font-family : 'NotoSans';font-size: 24px; font-weight: 700;margin-top: 2px;}
+main .story .list ul li:nth-child(2) a p+p {background-position: 62% 32%;}
+main .story .list ul li:nth-child(3) a p+p {background-position: 62% 32%;}
 
 
 /* Category */
@@ -152,8 +156,7 @@ main .benefits ul li:last-child {margin-right: 0;}
 main .benefits ul li img {border-radius: 6px;}
 main .benefits ul li p {font-size: 23px; font-weight: 700;color: black;margin-bottom: 11px;padding: 24px 0 0 18px;}
 main .benefits ul li p+p {font-size: 14px;color: #90a0a6;font-weight: 400;margin-bottom: 20px;padding: 0 0 0 18px;}
-main .benefits ul li .btn {font-size: 15px;font-weight: bold; padding-left: 18px;color: black;}
-main .benefits ul li .btn img {padding: 0 0 3px 8px;vertical-align: middle;}
+main .benefits ul li .btn {font-size: 15px;font-weight: bold; padding-left: 18px;color: black;background: url(../images/banner_arrow.png) no-repeat 28%;}
 
 
 /* Q&A */
@@ -167,9 +170,14 @@ main .QA .top .list {display: flex;position: relative;justify-content: center;wi
 main .QA .top .list .prev {position: absolute;left: 0;top: 70px;}
 main .QA .top .list .list_box ul {display: flex;margin-top: 14px;}
 main .QA .top .list .list_box ul li {width: 150px;height: 150px; margin-right: 18px;padding: 29px 22px 24px 22px;background-color: #f2f4f5;border-radius: 6px;}
+main .QA .top .list .list_box ul li a {display: block;width: 100%;height: 100%;position: relative;}
+main .QA .top .list .list_box ul li:nth-child(1) a {background: url(../images/Q&A1.png) no-repeat 0 0;background-size: 34px 34px;}
+main .QA .top .list .list_box ul li:nth-child(2) a {background: url(../images/Q&A2.png) no-repeat 0 0;background-size: 34px 34px;}
+main .QA .top .list .list_box ul li:nth-child(3) a {background: url(../images/Q&A3.png) no-repeat 0 0;background-size: 34px 34px;}
+main .QA .top .list .list_box ul li:nth-child(4) a {background: url(../images/Q&A4.png) no-repeat 0 0;background-size: 34px 34px;}
 main .QA .top .list .list_box ul li:last-child {margin-right: 0;}
 main .QA .top .list .list_box ul li img {display: block; width: 34px;height: 34px;}
-main .QA .top .list .list_box ul li a p {font-size: 15px;color: black;margin-top: 16px;}
+main .QA .top .list .list_box ul li a p {font-size: 15px;color: black;position: absolute;bottom: 0;line-height: 1.6;}
 main .QA .top .list .list_box div {width: 654px;height: 32px;border-bottom: 2px solid rgba(0,0,0,.25);;position: relative;}
 main .QA .top .list .list_box div span {width: 109px;height: 32px;border-bottom: 2px solid black;position: absolute;}
 main .QA .top .list .next {position: absolute;right: 0;top: 70px;}
