@@ -7,6 +7,8 @@
 - before, after
 - hover
 - position
+- float
+- 상대경로 절대경로
 <br><br>
 
 ## 🛠 제작기간&참여인원
