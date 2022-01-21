@@ -1,38 +1,37 @@
+@import url("./reset.css");
 @import url("./fonts.css");
 @import url("./main.css");
-@import url("./reset.css");
 
 
-.inner_1400 {max-width: 1400px;width: 100%; margin: auto;}
+.inner_1400 {width: 1400px; margin: auto;}
 
 
 /* Header */
-header {position: relative; border-bottom: 1px solid #e8ecee;z-index: 100;}
-header .inner_1400 {position: relative;height: 81px;}
+header {border-bottom: 1px solid #e8ecee;}
+header .inner_1400 {height: 81px;}
 header .inner_1400 h1 {float: left;margin-top: 30px;}
 header .inner_1400 nav {float: left;margin-left:40px;}
 header .inner_1400 nav li {float: left;margin: 0 20px;line-height: 81px;}
-header .inner_1400 nav li:hover {border-bottom: 1px solid #00A8E3;}
-header .inner_1400 nav li a {color:black;font-family : 'NotoSans';font-size: 16px;font-weight: 700;}
-header .inner_1400 nav li a:hover {color: #00A8E3;}
-header .inner_1400 aside {float: right;display: flex;justify-content: space-between;align-items: center; width: 412px;margin: 20px 10px 0 0;}
-header .inner_1400 aside div {width: 320px;height: 42px; background-color: #f2f4f5; border-radius: 21px; background-image: url(../images/search.png);background-repeat: no-repeat;background-position: 94%;}
-header .inner_1400 aside div a {display: block; font-family : 'NotoSans';line-height: 42px;padding-left: 22px;font-size: 14px;color: #90a0a6; font-weight: 400;}
-header .inner_1400 aside img {max-width: 100%; float: right;width: 26px;height: 27px;}
+header .inner_1400 nav li a {padding-bottom: 29px; color:black;font-size: 16px;font-weight: 700;}
+header .inner_1400 nav li a:hover {color: #00A8E3;border-bottom: 1px solid #00A8E3;}
+header .inner_1400 aside {float: right;display: flex;align-items: center;margin: 20px 10px 0 0;}
+header .inner_1400 aside div {width: 320px;background-color: #f2f4f5; border-radius: 21px; background-image: url(../images/search.png);background-repeat: no-repeat;background-position: 94%;}
+header .inner_1400 aside div a {line-height: 42px;padding-left: 22px;font-size: 14px;color: #90a0a6;}
+header .inner_1400 aside a {padding-left: 14px;}
 header .inner_1400 aside a+a {position: relative;}
-header .inner_1400 aside a span {position: absolute;width: 20px;height: 20px;font-family : 'NotoSans';font-size: 12px;font-weight: bold;color: #fff;border-radius: 20px;background: #00a8e3;text-align: center;right: -9px;top: -7px;padding-left: 1px;}
+header .inner_1400 aside a span {position: absolute;width: 20px;height: 20px;font-size: 12px;font-weight: bold;color: #fff;border-radius: 20px;background: #00a8e3;text-align: center;right: -9px;top: -7px;padding-left: 1px;}
 
 
 /* Footer */
 footer .footer_nav {border-bottom: 1px solid #e8ecee;border-top: 1px solid #e8ecee;}
 footer .footer_nav .inner_1400 {display: flex;justify-content: space-between;padding: 15px 5px;align-items: center;}
-footer .footer_nav .inner_1400 ul {display: flex;font-family : 'NotoSans';font-size: 14px;font-weight: 400;padding-bottom: 2px;}
+footer .footer_nav .inner_1400 ul {display: flex;font-size: 14px;font-weight: 400;padding-bottom: 2px;}
 footer .footer_nav .inner_1400 ul li {margin-right: 4px;}
 footer .footer_nav .inner_1400 ul li a {color: #90a0a6;}
 footer .footer_nav .inner_1400 ul li .bold {font-weight: 700;}
-footer .footer_nav .inner_1400 select {width: 160px;height: 30px;font-family : 'NotoSans';color: #90a0a6;background-color: #f2f4f5;padding: 0 12px 2px;border-radius: 4px; -webkit-appearance:none;-moz-appearance:none;appearance:none;background-image: url(../images/select.png);background-repeat: no-repeat;background-size: 10px 6px;background-position: 92%;}
+footer .footer_nav .inner_1400 select {width: 160px;height: 30px;color: #90a0a6;background-color: #f2f4f5;padding: 0 12px 2px;border-radius: 4px; -webkit-appearance:none;-moz-appearance:none;appearance:none;background-image: url(../images/select.png);background-repeat: no-repeat;background-size: 10px 6px;background-position: 92%;}
 footer .footer_nav .inner_1400 select::-ms-expand {display: none;}
-footer .footer_in {max-width: 1400px;width: 100%;margin: 25px auto;display: flex; justify-content: space-between;font-family : 'NotoSans';}
+footer .footer_in {max-width: 1400px;width: 100%;margin: 25px auto;display: flex; justify-content: space-between;}
 footer .footer_in .info p {font-size: 13px;color: #bec8cc;margin: 10px 0 25px;}
 footer .footer_in .info ul {color: #90a0a6; font-size: 12px; line-height: 24px;}
 footer .footer_in .info .img {display: flex;justify-content: left;align-items: center;}
