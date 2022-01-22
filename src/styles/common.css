@@ -2,9 +2,9 @@
 @import url("./fonts.css");
 @import url("./main.css");
 
-body {font-family : 'NotoSans';}
+body {font-family:'NotoSans';}
 
-.inner_1400 {width: 1400px; margin: auto;}
+.inner_1400 {width:1400px;margin:auto;}
 
 
 /* Header */
@@ -30,7 +30,7 @@ footer .footer_nav .inner_1400 ul {display:flex;font-size:14px;padding-bottom:2p
 footer .footer_nav .inner_1400 ul li {margin-right:4px;}
 footer .footer_nav .inner_1400 ul li a {color:#90a0a6;}
 footer .footer_nav .inner_1400 ul li .bold {font-weight:700;}
-footer .footer_nav .inner_1400 select {width:160px;height:30px;color:#90a0a6;background-color:#f2f4f5;padding:0 12px 2px;border-radius:4px;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-image:url(../images/select.png);background-repeat: no-repeat;background-size:10px 6px;background-position:92%;}
+footer .footer_nav .inner_1400 select {width:160px;height:30px;color:#90a0a6;background-color:#f2f4f5;padding:0 12px 2px;border-radius:4px;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-image:url(../images/select.png);background-repeat:no-repeat;background-size:10px 6px;background-position:92%;}
 footer .footer_nav .inner_1400 select::-ms-expand {display:none;} /* ie에서 화살표 사라지게 */
 footer .footer_in {width:1400px;margin:25px auto;display:flex;justify-content:space-between;}
 footer .footer_in .info p {font-size:13px;color:#bec8cc;margin:10px 0 25px;}
