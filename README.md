@@ -4,11 +4,10 @@
 <br><br>
 
 ## 📖 이번 프로젝트에서 복습한 것
-- before, after
-- hover
-- position
-- float
-- 상대경로 절대경로
+- 가상선택자를 활용하여 css로 가상 태그를 만드는 법을 공부
+- position 속성의 위치를 결정하는 방식을 공부
+- float 레이아웃과 clear 속성에 대해 공부
+- 절대경로와 상대경로의 차이점과 경로설정 방법을 공부
 <br><br>
 
 ## ⚙ Refactoring
